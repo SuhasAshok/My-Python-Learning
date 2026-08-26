@@ -26,3 +26,4 @@ I am learning Python by working through the Udemy course
 - [Day 16] Object-Oriented Programming
 - [Day 17] Quiz Game
 - [Day 18] Turtle Graphics & Hirst Painting
+- [Day 19] Turtle racing game
