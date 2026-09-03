@@ -27,3 +27,5 @@ I am learning Python by working through the Udemy course
 - [Day 17] Quiz Game
 - [Day 18] Turtle Graphics & Hirst Painting
 - [Day 19] Turtle racing game
+- [Day 20] Snake Game part 1
+- [Day 21] Snake Game part 2
