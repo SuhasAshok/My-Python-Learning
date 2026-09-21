@@ -32,3 +32,4 @@ I am learning Python by working through the Udemy course
 - [Day 22] Pong Game
 - [Day 23] Turtle Crossing Game
 - [Day 24] Mail Merge Project
+- [Day 25] US States Game
