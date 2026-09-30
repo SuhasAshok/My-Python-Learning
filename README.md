@@ -36,3 +36,4 @@ I am learning Python by working through the Udemy course
 - [Day 26] Nato Phonetic Alphabet Project
 - [Day 27] Miles to Kilometer Converter
 - [Day 28] Pomodoro Timer
+- [Day 29] Password Manager GUI
