@@ -18,6 +18,7 @@ def password_generator():
     random.shuffle(password_list)
 
     password = "".join(password_list)
+    pass_entry.delete(0, END)
     pass_entry.insert(0, password)
     pyperclip.copy(password)
 
@@ -61,22 +62,22 @@ pass_label = Label(text="Password:")
 pass_label.grid(row=3, column=0)
 
 #Entries
-website_entry = Entry(width=35)
-website_entry.grid(row=1, column=1, columnspan=2)
+website_entry = Entry()
+website_entry.grid(row=1, column=1, columnspan=2, sticky="ew")
 website_entry.focus()
 
-email_entry = Entry(width=35)
-email_entry.grid(row=2, column=1, columnspan=2)
-email_entry.insert(0, "david@gmail.com")
+email_entry = Entry()
+email_entry.grid(row=2, column=1, columnspan=2, sticky="ew")
+email_entry.insert(0, "suhas@gmail.com")
 
-pass_entry = Entry(width=35)
-pass_entry.grid(row=3, column=1, columnspan=2)
+pass_entry = Entry()
+pass_entry.grid(row=3, column=1, sticky="ew")
 
 #Buttons
-pass_button = Button(text="Generate Password", highlightthickness=0, command=password_generator)
-pass_button.grid(row=4, column=1)
+pass_button = Button(text="Generate Password", width=17, highlightthickness=0, command=password_generator)
+pass_button.grid(row=3, column=2)
 
-add_button = Button(text="Add", width=16, highlightthickness=0, command=save)
-add_button.grid(row=4, column=2)
+add_button = Button(text="Add", highlightthickness=0, command=save)
+add_button.grid(row=4, column=1, columnspan=2, sticky="ew")
 
 window.mainloop()
